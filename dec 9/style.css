@@ -1,0 +1,18 @@
+.container{
+    background-color: pink;
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* column-gap: 20px; */
+
+}
+.box{
+    background-color: yellow;
+    border: 2px solid red;
+    margin: 10px;
+}
+.box6 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-column: 1/5;
+}

@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    height: 70px;
+
+
+}
+.navbar ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    
+}
+.logo{
+    font-size: 36px;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 25px;
+}
+.navbar .icon {
+    display: flex;
+    gap: 10px;
+}
+.navbar .icon i{ 
+    font-size: 30 px;
+}
+.hero{
+    height: 100vh;
+    background: url(/pexels-lastly-633198.jpg) no-repeat center center/cover ;
+}
+.hero .content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.hero .content h1,
+.hero .content p{
+    color: aliceblue;
+    text-align: center;
+} 
+.hero .content h1 {
+    font-size: 65px;
+}
+.hero .content p {
+    font-size: 45px;
+}
+.btn{
+    background-color: green;
+    color: aliceblue;
+    font-size: 26px;
+    border: 2px solid wheat;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 5px;
+}
+.about .about-logo{
+    display: flex;
+    font-size: 65px;
+    margin: 40px 20px;
+    font-size: 65px;
+}
+.about .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin: 40px 0px;
+
+
+}
+.about .container img{
+width: 400px;
+height: 300px;
+}
+.about .container.about-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}

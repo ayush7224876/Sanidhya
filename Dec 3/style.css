@@ -1,0 +1,51 @@
+.container {
+    background-color: red;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 500px;
+    
+
+
+}
+.box{
+    background-color: orange;
+    color: pink;
+    font-size: 44px;
+    width: 100px;
+    height: 100px;
+}
+.card{
+    border: 2px solid black;
+    width: 300px;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.btn{
+    position: relative;
+    background: black;
+    color: azure;
+    border-radius: 6px;
+    padding: 3px 4px;
+    border: none;
+    font-weight: 200px;
+   flex-direction: column;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 150px;
+    
+}
+

@@ -1,0 +1,21 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border: 12px solid red;
+}
+.parent{
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+    justify-content: center;
+}
+
+.parent .item {
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    margin: 12px;
+    
+}

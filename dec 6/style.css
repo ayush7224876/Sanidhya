@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{ height: 100vh;
+    background-image: url(/pexels-pixabay-414513.jpg);
+    height: 100vh;
+}
+.hero .navbar {
+    
+    display: flex;
+    background-color: lightsalmon;
+    height: 88px;
+    justify-content: space-between;
+    align-items:  center;
+}
+.hero .navbar  h1{
+    color: rgb(245, 237, 237);
+    margin-left: 20px;
+
+}
+.hero .navbar nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-right: 40px;
+}
+
+.hero .navbar nav ul  li a{
+    color: rgb(246, 237, 237);
+    font-size: 30px;
+    text-decoration: none;
+
+
+
+}
+h1{
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}.hero .contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    color: white;
+    
+    align-items: center;
+}
+ .btn{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 20%;
+ }
+
+.hero .navbar nav ul  li a{
+    color: rgb(246, 237, 237);
+    font-size: 30px;
+    text-decoration: none;
+
+
+
+}
+h1{
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}.hero .contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    color: white;
+    
+    align-items: center;
+}
+ .btn{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 20%;
+ }
