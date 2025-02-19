@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aqua;
+    
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px; 
+    padding: 30px;
+    font-size: 40px
+    
+}
+nav ul li a{
+    font-size: 40px;
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+}
+#click{
+    display: none;
+}
+label{
+    font-size: 30px;
+display: none;
+}
+.container{
+    margin: 30px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+/* tab view */
+@media screen and (max-width: 768px){
+    .container{
+        grid-template-columns: 1fr 1fr;
+    }
+    lable{
+        display: block;
+    }
+    nav ul{
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        background-color: tomato;
+        width: 100%;
+        text-align: center;
+        display: none;
+    }
+    nav ul li a{
+        color: blue;
+        font-weight: 600;
+    }
+    #click:checked ~ nav ul{
+        display: block;
+    }
+}
